@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "class8mod:item/shans_gift"
+  }
+}

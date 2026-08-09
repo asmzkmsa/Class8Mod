@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "class8mod",
+	"version": "1.1.0",
+	"name": "Class8Mod",
+	"description": "一个模组",
+	"authors": [
+		"Korsu_Lay"
+	],
+	"contact": {
+		"homepage": "https://www.250831.xyz",
+		"sources": "https://github.com/asmzkmsa/class8mod"
+	},
+	"license": "MIT",
+	"icon": "assets/class8mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"xyz.class8.mod.Class8Mod"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.1.2",
+		"java": ">=21",
+		"fabric-api": ">=0.155.2+26.1.2"
+	}
+}

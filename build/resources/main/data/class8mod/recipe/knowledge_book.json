@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "class8mod",
+  "pattern": [
+    "LPL"
+  ],
+  "key": {
+    "L" : "minecraft:leather",
+    "P" : "minecraft:paper"
+  },
+  "result": {
+    "id": "class8mod:knowledge_book",
+    "count": 1
+  }
+}
