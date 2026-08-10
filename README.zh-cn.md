@@ -7,7 +7,7 @@
 这是一个普通高中生在闲暇时间创作的一款模组。。<br>
 内容灵感大多来源于班级生活<br>
 模组目前只考虑做fabric<br>
-Forge的话大概等creator用上NVIDIA GeForce GTX 8060的时候就会做了吧，嗯对。。。
+Forge的话大概等creator用上NVIDIA GeForce RTX 8060的时候就会做了吧，嗯对。。。
 
 ### 主要内容
 
