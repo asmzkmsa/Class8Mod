@@ -6,7 +6,7 @@ You can choose your lnaguage: [English](README.md) | [简体中文](README.zh-cn
 This is a mod created by an ordinary high school student during their spare time.<br>
 The content inspiration is mostly derived from class life<br>
 The mod currently only considers being built for Fabric<br>
-if Forgeis going to bemade,it wil probablyhappenwhen creator getsNviDIAGeForce GTX 8060,yeah.
+if Forgeis going to bemade,it wil probablyhappenwhen creator getsNviDIAGeForce RTX 8060,yeah.
 
 ## Main Content
 
