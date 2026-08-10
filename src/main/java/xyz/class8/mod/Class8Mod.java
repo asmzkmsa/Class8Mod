@@ -1,6 +1,8 @@
 package xyz.class8.mod;
 
 import net.fabricmc.api.ModInitializer;
+import net.fabricmc.fabric.api.networking.v1.ServerPlayConnectionEvents;
+import net.minecraft.advancements.AdvancementHolder;
 import net.minecraft.resources.Identifier;
 import xyz.class8.mod.item.ModItems;
 import xyz.class8.mod.registry.ModRegistries;
@@ -16,6 +18,12 @@ public class Class8Mod implements ModInitializer {
         LOGGER.info("正在初始化 Class8Mod...");
         ModItems.registerItems();
         ModRegistries.registerAll();
+        ServerPlayConnectionEvents.JOIN.register((handler, sender, server) -> {
+            AdvancementHolder root = server.getAdvancements().get(id("root"));
+            if (root != null) {
+                handler.player.getAdvancements().award(root, "start");
+            }
+        });
         LOGGER.info("Class8Mod 初始化完成！");
     }
 

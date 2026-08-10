@@ -27,6 +27,15 @@ dependencies {
 }
 
 // 使用 Java 25
+// The project keeps client-only code under src/client. Include it in the
+// compiled resources/classes so Fabric can find the client Mixin at runtime.
+sourceSets {
+    main {
+        java.srcDir 'src/client/java'
+        resources.srcDir 'src/client/resources'
+    }
+}
+
 tasks.withType(JavaCompile).configureEach {
     it.options.release = 25
     it.options.encoding = 'UTF-8'

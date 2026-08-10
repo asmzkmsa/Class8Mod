@@ -2,10 +2,12 @@
 	"required": true,
 	"package": "xyz.class8.mod.mixin",
 	"compatibilityLevel": "JAVA_25",
+
+	"client": [
+		"AdvancementTabMixin"
+	],
+
 	"injectors": {
 		"defaultRequire": 1
-	},
-	"overwrites": {
-		"requireAnnotations": true
 	}
 }

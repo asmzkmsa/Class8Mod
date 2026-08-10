@@ -2,9 +2,6 @@
 	"required": true,
 	"package": "xyz.class8.mod.mixin",
 	"compatibilityLevel": "JAVA_25",
-	"mixins": [
-		"ExampleMixin"
-	],
 	"injectors": {
 		"defaultRequire": 1
 	},

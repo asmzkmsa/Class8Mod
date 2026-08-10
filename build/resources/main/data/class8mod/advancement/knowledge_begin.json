@@ -1,0 +1,36 @@
+{
+  "parent": "class8mod:root",
+  "display": {
+    "icon": {
+      "id": "class8mod:knowledge_book"
+    },
+    "title": {
+      "text": "知识的开端！"
+    },
+    "description": {
+      "text": "获得一本知识之书"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "get_knowledge_book": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "class8mod:knowledge_book"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_knowledge_book"
+    ]
+  ]
+}

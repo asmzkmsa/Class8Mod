@@ -24,5 +24,12 @@
 		"minecraft": "~26.1.2",
 		"java": ">=21",
 		"fabric-api": ">=0.155.2+26.1.2"
-	}
+	},
+	"mixins": [
+		"class8mod.mixins.json",
+		{
+			"config": "class8mod.client.mixins.json",
+			"environment": "client"
+		}
+	]
 }

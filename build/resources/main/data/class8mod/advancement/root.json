@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "id": "class8mod:knowledge_book"
+    },
+    "title": {
+      "text": "8班成长之路"
+    },
+    "description": {
+      "text": "属于8班的冒险旅程开始了"
+    },
+    "background": "class8mod:gui/advancements/backgrounds/class8",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "start": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}
