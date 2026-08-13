@@ -1,7 +1,10 @@
 {
   "item.class8mod.shans_gift": "Shan's Gift",
-  "item.class8mod.shans_gift.tooltip": "!!",
-
+  "item.class8mod.shans_gift.tooltip": "Eat it to gain all positive effects for 60 seconds",
   "item.class8mod.knowledge_book": "Knowledge Book",
-  "item.class8mod.knowledge.tooltip": "just use it."
+  "item.class8mod.shan_camera": "Shan's Polaroid",
+  "item.class8mod.shan_camera.tooltip": "Requires Shan's Gift in your inventory to take a photo",
+  "item.class8mod.shan_photo": "Photo with Shan",
+  "item.class8mod.shan_photo.tooltip": "Grants infinite Regeneration II and Luck I while held in the offhand",
+  "item.class8mod.knowledge_book.tooltip": "Study hard and Shan will reward you~"
 }

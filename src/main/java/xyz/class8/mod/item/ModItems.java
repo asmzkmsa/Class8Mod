@@ -33,6 +33,24 @@ public class ModItems {
                     )
             );
 
+    public static final Item SHAN_CAMERA =
+            registerItem(
+                    "shan_camera",
+                    new ShanCameraItem(
+                            new Item.Properties()
+                                    .setId(itemKey("shan_camera"))
+                    )
+            );
+
+    public static final Item SHAN_PHOTO =
+            registerItem(
+                    "shan_photo",
+                    new ShanPhotoItem(
+                            new Item.Properties()
+                                    .setId(itemKey("shan_photo"))
+                    )
+            );
+
 
 
     private static ResourceKey<Item> itemKey(String name) {

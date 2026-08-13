@@ -1,0 +1,27 @@
+{
+  "parent": "class8mod:camera_moment",
+  "display": {
+    "icon": {
+      "id": "class8mod:shan_photo"
+    },
+    "title": {
+      "text": "笑一个！"
+    },
+    "description": {
+      "text": "第一次使用鳝的拍立得成功拍照"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "trigger"
+    ]
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "class8mod",
+  "pattern": [
+    "III",
+    "IPI",
+    "III"
+  ],
+  "key": {
+    "I": "minecraft:iron_ingot",
+    "P": "minecraft:glass_pane"
+  },
+  "result": {
+    "id": "class8mod:shan_camera",
+    "count": 1
+  }
+}

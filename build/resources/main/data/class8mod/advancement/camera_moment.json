@@ -1,0 +1,36 @@
+{
+  "parent": "class8mod:knowledge_begin",
+  "display": {
+    "icon": {
+      "id": "class8mod:shan_camera"
+    },
+    "title": {
+      "text": "记录当下的美好时刻！"
+    },
+    "description": {
+      "text": "获得鳝的拍立得"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "class8mod:shan_camera"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "trigger"
+    ]
+  ]
+}

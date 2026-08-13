@@ -1,7 +1,10 @@
 {
   "item.class8mod.shans_gift": "鳝的馈赠",
   "item.class8mod.shans_gift.tooltip": "食用后获得所有正面效果，持续60秒",
-
   "item.class8mod.knowledge_book": "知识之书",
-  "item.class8mod.knowledge.tooltip": "好好学习会被及婷鳝奖励哦~"
+  "item.class8mod.shan_camera": "鳝的拍立得",
+  "item.class8mod.shan_camera.tooltip": "需要背包内有鳝的馈赠才能拍照",
+  "item.class8mod.shan_photo": "与鳝的合照",
+  "item.class8mod.shan_photo.tooltip": "放在副手时获得无限时长的生命恢复 II 和幸运 I",
+  "item.class8mod.knowledge_book.tooltip": "好好学习会被鳝奖励哦~"
 }
