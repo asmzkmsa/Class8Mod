@@ -21,7 +21,7 @@ Acquisition method:You can use Knowledge Book to get a Shan's Gift.
 **Effect: use it to get a Shan's Gift**
 
 #### Item: Photo with Shan
-![photo](photo.png)
+![photo](photo.png)<br>
 **Effect: Try to put it on your left hand..**
 
 #### Item: Shan's Polaroid
@@ -30,4 +30,4 @@ Acquisition method:You can use Knowledge Book to get a Shan's Gift.
 **Tips: Please make sure that you have a Shan's gift..**<br>
 **🔴🔴🔴🔴The ID of the item is：Shan_camera**
 
-#### The mod has added an exclushe achieve ment nystem.
+#### The mod has added an exclushe achieve ment system.
